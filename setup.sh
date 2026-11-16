@@ -37,7 +37,7 @@ echo " ∆ Atualizacao dos pacotes"
 pkg upgrade -y
 
 echo " ∆ Pacotes essenciais"
-pkg install zsh gh wget which curl git zip clang fastfetch make cmake gdb python micro nasm binutils openjdk-17 tmux -y
+pkg install zsh gh wget which curl git zip clang fastfetch make cmake gdb python micro nasm binutils openjdk-17 tmux rust -y
 
 echo " ∆ Trocando shell padrao (bash -> zsh)"
 chsh -s zsh
